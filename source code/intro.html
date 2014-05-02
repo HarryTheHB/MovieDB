@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Database introduction</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="roommate, jhons hopkins university, rent" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+         <link href="css/style_intro.css" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="js/jquery-1.10.1.js"></script>
+        <script type="text/javascript" src="js/tips.js"></script>
+
+
+</head>
+
+<body class="normal" onload="document.forms[0].reset()">
+	<div class="intro">
+    	<div class="header">
+        	<table>
+            	<tbody>
+                	<tr>
+                    	<td>
+                       	<p class="logo">Movie Dtabase</p>
+                        </td>
+                        <td class="td_blank">
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        </td>
+                        <td>
+                        <a href="" class="btm_head"></a>
+                        </td>
+                	</tr>
+                </tbody>
+            </table>
+        	
+    	</div>
+
+     	<div class="main">
+        	
+        	<div class="topboard"></div>
+
+            <div class="infor_input">
+            	<div class="leftbox">
+                	<div class="slogan">
+
+                    Not a menmber? sign up now!
+
+                    </div>
+                    <form name="form1" action="entrance.php" method="post">
+                    <div class="register">
+
+                   	  <div class="infor_list">
+<div class="tit">
+                            	<i>*</i>
+                                email：
+                            </div>
+<div class="inp"><input name="mail1" type="text" class="W_input" value="" placeholder="any email account"  onBlur="test('mail')" onfocus="$('.email_tip').hide()">
+
+                            </div>
+                            <div class="tip">
+                            	<div node-type="tip" class="email_tip">
+
+                            	</div>
+                        	</div>
+                      </div>
+
+                        <div class="infor_list">
+                        	<div class="tit">
+                            <i>*</i>
+                            password：
+                            </div>
+                            <div class="inp">
+                            <input type="password" name="passwd1" class="W_input" value="" placeholder="any word or number" />
+                            </div>
+                            <div class="tip">
+                          	  <div class="passwd_tip">
+
+                              </div>
+                           </div>
+                        </div>
+
+                        <div class="infor_list">
+                        	<div class="tit">
+                            <i>*</i>
+                            nickname：
+                            </div>
+                            <div class="inp">
+                            <input type="text" name="nickname" class="W_input" value="" placeholder="any word and _">
+                            </div>
+                        </div>
+
+                        <div class="infor_submit">
+                        	<div class="inp">
+                            <input type="submit" value="sign up" name="register" class="reg_btn" />
+
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            	<div class="rightbox">
+            		<form name="form2" action="entrance.php" method="post">
+                	<div class="login">
+   						<div class="infor_list">
+                    		<div>
+                        	<input name="mail2" type="text" class="W_input" value="" placeholder="email"  />
+                        	</div>
+                    	</div>
+                        <div class="infor_list">
+                    		<div>
+                        	<input name="passwd2" type="password" class="W_input" value="" placeholder="password" />
+                        	</div>
+                    	</div>
+                        <div class="infor_submit">
+                        	<div class="inp">
+                            <input type="submit" value="login" name="login" class="log_btn" />
+
+                            </div>
+                        </div>
+                	</div>
+                	</form>
+            	</div>
+        	</div>
+
+            <div class="footer">
+            	<div class="help_link">
+                	contact us
+                </div>
+                <p class="copyright">copyright
+                </p>
+            </div>
+     	</div>
+
+    </div>
+</body>
+</html>

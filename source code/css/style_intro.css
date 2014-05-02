@@ -1,0 +1,202 @@
+.topboard {
+	background-color: #CCC;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	overflow: hidden;
+	height: 350px;
+	border-bottom-color: #999;
+	position: static;
+	background-attachment: scroll;
+	background-image: url(../images/ban2.png);
+	background-repeat: repeat;
+	background-position: left bottom;
+}
+.infor_input {
+	background-color: #FFF;
+	display: block;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	height: 350px;
+	width: 900px;
+}
+.leftbox {
+	color: #333;
+	background-color: #FFF;
+	display: block;
+	float: left;
+	width: 550px;
+	background-attachment: scroll;
+	background-image: url(../images/login_vline.png);
+	background-repeat: no-repeat;
+	background-position: right 0px;
+	background-size:initial;
+	background-clip:initial;
+	background-origin:initial;
+}
+.slogan {
+	font-family: "MS Serif", "New York", serif;
+	font-size: 24px;
+	font-style: italic;
+	line-height: 32px;
+	margin-right: 2px;
+	padding-top: 8px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 30px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #e6e6e6;
+	text-align: center;
+}
+.register {
+	display: block;
+	float: left;
+	width: 530px;
+	margin-top: 22px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	padding-bottom: 78px;
+}
+.infor_list {
+	display: block;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	position: static;
+}
+.tit {
+	font-size: 14px;
+	line-height: 30px;
+	text-align: right;
+	display: block;
+	float: left;
+	width: 140px;
+}
+.inp {
+	margin-left: 140px;
+}
+.W_input {
+	font-size: 14px;
+	color: #808080;
+	vertical-align: middle;
+	height: 28px;
+	width: 193px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+.tip {
+	display: block;
+	line-height: 18px;
+	color: #F00;
+	text-indent: -20;
+}
+
+.email_tip {
+	position: absolute;
+	left: 540px;
+	top: 475px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+.passwd_tip {
+	position: absolute;
+	left: 540px;
+	top: 535px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+}
+
+.infor_submit {
+	margin-top: 19px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+.reg_btn {
+	font-size: 16px;
+	line-height: 39px;
+	font-weight: 700;
+	color: #FFF;
+	background-color: #61b8db;
+	display: inline-block;
+	height: 40px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	overflow: hidden;
+	cursor: pointer;
+	outline-color:initial;
+	outline-style:initial;
+	border-radius: 8px;
+	position: relative;
+	border: 1px outset #CCC;
+}
+
+.log_btn {
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 700;
+	color: #FFF;
+	background-color: #FF8000;
+	display: inline-block;
+	height: 30px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	overflow: hidden;
+	cursor: pointer;
+	outline-color:initial;
+	outline-style:initial;
+	border-radius: 6px;
+	position: relative;
+	border: 1px outset #CCC;
+}
+.rightbox {
+	display: block;
+	float: right;
+	width: 330px;
+	overflow: hidden;
+	border-left-width: 1px;
+	border-left-style: none;
+	border-left-color: #ccc;
+	line-height: 30px;
+}
+.login {
+	display: block;
+	width: 250px;
+	margin-top: 70px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	padding-left: 36px;
+}
+.inp.username {
+	color: #808080;
+	vertical-align: middle;
+	height: 28px;
+	width: 165px;
+	padding-right: 5px;
+	padding-left: 39px;
+	border: 1px solid #ccc;
+	margin-left: 0px;
+}

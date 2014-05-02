@@ -1,0 +1,80 @@
+.infor_input {
+	background-color: #FFF;
+	display: block;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	width: 900px;
+}
+
+.overview {
+	padding: 30px;
+}
+
+.info_main {
+	color: #444;
+	display: block;
+}
+
+.info_tab02 {
+	display: block;
+	clear: both;
+	padding-bottom: 60px;
+	padding-left: 20px;
+}
+
+tbody {
+	vertical-align: middle;
+	display: table-row-group;
+	font-size: 14px;
+	color: #444;
+	padding-bottom: 17px;
+	line-height: 28px;
+	text-align:left
+}
+
+.tab_showall{
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #ccc;
+	border-right-color: #ccc;
+	border-bottom-color: #ccc;
+	border-left-color: #ccc;
+	width: auto;
+}
+
+tr{
+	border-style: inherit;
+	border-corlor: inherit;
+	border-width: inherit;
+}
+
+th {
+	padding-left: 3px;
+	font-style: normal;
+	line-height: 28px;
+	font-weight: normal;
+	white-space: nowrap;
+	width: 144px;
+}
+
+td {
+	line-height: 26px;
+	width: auto;
+	padding-left: 10px;
+}
+.td01{
+	width: 280px;
+}

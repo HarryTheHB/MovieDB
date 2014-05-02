@@ -1,0 +1,237 @@
+#body {
+	margin: 0px;
+	padding: 0px;
+}
+.normal {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 1.125px;
+	font-weight: normal;
+	font-variant: normal;
+	background-attachment: scroll;
+	background-color: #F2F2F2;
+	background-repeat: repeat;
+	background-position: 0px 0px;
+	background-image: none;
+}
+.intro {
+	background-attachment: scroll;
+	background-image: none;
+	background-repeat: repeat;
+	display: block;
+	background-position: center top;
+	background-color: #F2F2F2;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: initial;
+	height: 100%;
+	width: 100%;
+}
+.header {
+	background-attachment: fixed;
+	background-color: #333;
+	margin: 0px;
+	float: left;
+	height: 50px;
+	width: 100%;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: auto;
+	padding: 0px;
+	display: block;
+}
+
+.logo {
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #FFF;
+	position: relative;
+	left: 10%;
+	top: 50%;
+	right: auto;
+	bottom: auto;
+	height: 40px;
+	width: 130px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	letter-spacing: normal;
+	text-align: center;
+	word-spacing: normal;
+	display: inline;
+}
+.main {
+	background-color: #FFF;
+	display: block;
+	width: 900px;
+	margin-top: 80px;
+	margin-right: auto;
+	margin-bottom: 35px;
+	margin-left: auto;
+	border: thin none #CCC;
+}
+
+.footer {
+	background-color: #333;
+	background-image: url(../images/footer_top_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+	padding-top: 15px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	display: block;
+	background-size:initial;
+	background-origin:initial;
+	background-clip:initial;
+	background-attachment:scroll;
+	color: #FFF;
+}
+.help_link {
+	text-align: center;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+}
+.copyright {
+	color: #fff;
+}
+.Icp {
+	color: #fff;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+}
+
+.icon {
+	vertical-align: middle;
+	display: inline;
+	height: 16px;
+	width: 16px;
+	margin-top: 0px;
+	margin-right: 3px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	overflow: hidden;
+}
+.blank {
+	height: 40px;
+	position: static;
+	top: 0px;
+	width: auto;
+}
+
+.index_title {
+	display: block;
+	margin-bottom: 30px;
+	border: 1px none #e0e0e0;
+}
+
+h3 {
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #e0e0e0;
+	border-right-color: #e0e0e0;
+	border-bottom-color: #e0e0e0;
+	border-left-color: #e0e0e0;
+}
+
+table {
+	display: table;
+	border-collapse: collapse;
+	border-style: none;
+	border-color: none;
+	border-width: none;
+	
+}
+tbody {
+	vertical-align: middle;
+	display: table-row-group;
+	border-color: inherit;
+	border-width: inherit;
+	border-style: inherit;
+	
+}
+.tab_info{
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 1px;
+}
+.btm_head {
+	font-size: 14px;
+	color: #999;
+	font-family: "MS Serif", "New York", serif;
+	text-decoration: none;
+	text-align: right;
+	word-spacing: normal;
+	vertical-align: bottom;
+	margin-right: 20px;
+	margin-top: 10px;
+	float: right;
+}
+
+.td_blank{
+	width: 1200px;
+}
+
+tr{
+	color: #444;
+	height: 40px;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 28px;
+	border-color: inherit;
+	border-style: inherit;
+	border-width: inherit;
+	vertical-align: middle;
+	white-space: nowrap;
+	padding-bottom: 17px;
+}
+
+td{
+	width: 300px;
+	border-color: inherit;
+	border-width: inherit;
+	border-style: inherit;
+	padding-left: 10px;
+}
+.btm_zone {
+	height: 150px;
+	overflow: hidden;
+	padding-left: 350px;
+}
+.btm_02 {
+	height: 40px;
+	width: 150px;
+	border: 2px outset #CCC;
+	float: left;
+	border-radius: 10px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 40px;
+	font-weight: 700;
+	background-color: #61b8db;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: -1px -1px 0.5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 0px 0px 1px #135c86, inset 0px 2px 1px 0px rgba(255,255,255,0.75);
+}

@@ -1,0 +1,111 @@
+.info_input {
+	background-color: #FFF;
+	display: block;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	height: 900px;
+	width: 900px;
+}
+
+.detail {
+	padding: 30px;
+}
+
+.info_main {
+	color: #444;
+	display: block;
+}
+
+h3 {
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #e0e0e0;
+	border-right-color: #e0e0e0;
+	border-bottom-color: #e0e0e0;
+	border-left-color: #e0e0e0;
+}
+
+.info_tab02 {
+	display: block;
+	clear: both;
+	padding-bottom: 60px;
+	padding-left: 20px;
+}
+
+tr{
+	color: #444;
+	height: 40px;
+	font-size: 14px;
+	font-style: normal;
+	line-height: 28px;
+	font-weight: normal;
+	border-color: inherit;
+	border-style: inherit;
+	border-width: inherit;
+	text-align: left;
+	vertical-align: middle;
+	white-space: nowrap;
+	padding-bottom: 17px;
+}
+
+td{
+	width: 300px;
+	border-color: inherit;
+	border-width: inherit;
+	border-style: inherit;
+	padding-left: 10px;
+}
+.td01{
+	height: 80px;
+	vertical-align: text-top;
+}
+th{
+	border-color: inherit;
+	border-width: inherit;
+	border-style: inherit;
+	padding-left: 10px;
+	width: 150px;
+}
+
+.photo{
+	padding: 10px;
+}
+
+.btm_zone {
+	height: 150px;
+	overflow: hidden;
+	padding-left: 350px;
+}
+.btm_rtn {
+	height: 40px;
+	width: 150px;
+	border: 2px outset #CCC;
+	float: left;
+	border-radius: 10px;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 40px;
+	font-weight: 700;
+	background-color: #61b8db;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	text-shadow: -1px -1px 0.5px rgba(0,0,0,0.5);
+	box-shadow: inset 0px 0px 0px 1px #135c86, inset 0px 2px 1px 0px rgba(255,255,255,0.75);
+}

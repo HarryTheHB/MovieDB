@@ -1,0 +1,151 @@
+.infor_input {
+	background-color: #FFF;
+	display: block;
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 0px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	height: 2100px;
+	width: 900px;
+}
+
+.register {
+	padding: 30px;
+}
+.infor_main {
+	color: #444;
+	display: block;
+}
+.index_title {
+	display: block;
+	margin-bottom: 30px;
+	border: 1px none #e0e0e0;
+}
+.W_textb {
+	font-size: 12px;
+	font-weight: 400;
+	color: #999;
+	margin-left: 8px;
+	cursor: default;
+}
+
+h3 {
+	font-size: 14px;
+	font-weight: 700;
+	padding-bottom: 10px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #e0e0e0;
+	border-right-color: #e0e0e0;
+	border-bottom-color: #e0e0e0;
+	border-left-color: #e0e0e0;
+}
+h4 {
+	font-size: 12px;
+	font-weight: normal;
+	color: #b8b7b7;
+	padding-top: 7px;
+}
+
+.info_tab01 {
+	display: block;
+	clear: both;
+	padding-bottom: 60px;
+	padding-left: 20px;
+}
+table {
+	display: table;
+	border-top-color: #666;
+	border-right-color: #666;
+	border-bottom-color: #666;
+	border-left-color: #666;
+	border-collapse: collapse;
+}
+tbody {
+	vertical-align: top;
+	display: table-row-group;
+	border-color: inherit;
+}
+th {
+	font-size: 14px;
+	font-style: normal;
+	line-height: 28px;
+	font-weight: normal;
+	color: #444;
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+	width: 144px;
+	padding-bottom: 17px;
+}
+
+.gray6 {
+	color: #444;
+}
+.error_color {
+	color: #F00;
+}
+.PY_input {
+	font-size: 14px;
+	line-height: 26px;
+	height: 26px;
+	width: 214px;
+	padding-right: 3px;
+	border: 1px solid #ccc;
+}
+td {
+	font-size: 14px;
+	padding-bottom: 17px;
+}
+.font_12 {
+	font-size: 12px;
+	vertical-align: inherit;
+	margin-top: 6px;
+}
+.info_tab_vm {
+	vertical-align: middle;
+}
+.info_radio01 {
+	color: #666;
+	vertical-align: middle;
+	margin-top: 2px;
+	margin-right: 3px;
+}
+label {
+	cursor: default;
+	vertical-align: top;
+	padding-top: 10px;
+	
+	
+}
+.birthDay {
+	white-space: nowrap;
+}
+.selection01 {
+	font-size: 12px;
+	color: #333;
+	margin-top: 5px;
+	border-radius: 0px;
+	border-style: solid;
+	border-color: #999;
+	border-width: thin;
+}
+.info_txtarea {
+	font-size: 12px;
+	color: #666;
+	vertical-align: top;
+	height: 60px;
+	padding-top: 2px;
+	padding-left: 2px;
+	border: 1px solid #ddd;
+	overflow: auto;
+	width: 250px;
+}
